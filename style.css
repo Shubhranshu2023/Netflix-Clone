@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    background-color: black;
+    color: white;
+}
+
+.container-1{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0.8) 100%),url(img/HomePage.jpg);
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* height: 20px; */
+}
+
+#navbar img{
+    height: 50px;
+    padding: 40px;
+}
+
+
+.lang-sing{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.language-box{
+    /* width: 60%; */
+    height: 100%;
+    border:0.2px solid white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-box{
+    background-color: red;
+    height: 100%;
+    /* border:0.2px solid white; */
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 20px;
+    /* font-weight: 600; */
+    
+}
+
+.input{
+    /* inline-size: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+}
+
+.input input{
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    border: 0.5px solid grey ;
+    color: white;
+    width: 500px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+.section-2,.section-4,.section-6,.section-8,.section-10,.section-12{
+    height: 10px;
+    background-color: rgb(47, 45, 45);
+    overflow: hidden;
+}
+
+.section-3,.section-5,.section-7,.section-9{
+    margin-top: 30px;
+    /* padding: 50px 0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-1,.box-3{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.box-2,.box-4,.box-7{
+    width: 50%;
+    padding: 0 40px;
+}
+
+.box-1 h1{
+    font-size: 55px;
+    font-weight: 700;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+.box-1 h5{
+    font-size: 25px;
+    /* : 70px; */
+    font-weight: 400px;
+}
+
+.box-3 img{
+    height: 50%;
+    width: 35rem;
+    /* : 70px; */
+    overflow: hidden;
+}
+
+
+.box-4,.box-5 h1{
+    /* -right: 70px; */
+    font-size: 55px;
+    font-weight: 700;
+    /* text-align: center; */
+    padding: 0 100px;
+}
+
+.section-5{
+    padding: 50px 0;
+}
+
+
+.box-4,.box-5 h5{
+    font-size: 25px;
+    padding: 15px 100px;
+    /* -right: 70px; */
+    font-weight: 400px;
+}
+
+.box-8 h1{
+      /* -right: 70px; */
+      font-size: 55px;
+      font-weight: 700;
+      /* text-align: center; */
+      padding: 0 100px;
+}
+
+.box-8 h5{
+    font-size: 25px;
+    padding: 15px 100px;
+    /* -right: 70px; */
+    font-weight: 400px;
+}
+
+.box-7 img{
+    width: 35rem;
+    /* overflow: hidden; */
+}
+
+.section-11{
+    padding:  2.5%  8% ;
+}
+
+.section-11 h1{
+    padding-bottom: 30px;
+    font-size: 45px;
+    /* font-weight: 700; */
+    text-align: center;
+    font-weight: 900;
+}
+
+.faq{
+    padding: 20px 50px;
+    height: 85px;
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color:  rgb(47, 45, 45);
+    cursor: pointer;
+}
+
+.faq h4{
+    font-size: 1.5rem;
+    
+}
+
+.faq i{
+    font-size: 2.5rem;
+}
+
+.section-11 p{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.section-13{
+    padding: 2.5% 8%;
+
+}
+.section-13 p{
+    font-size: 20px;
+}
+
+.section-13 span{
+    text-decoration: underline;
+}
+
+.bx-2{
+    position: absolute;
+    padding: 3% 0;
+    left: 8%;
+    display: flex;
+    gap: 15rem;
+}
+
+.bx-2 a{
+    font-size: 18px;
+    color: white;
+}
+
+.layer1,.layer2,.layer3{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
